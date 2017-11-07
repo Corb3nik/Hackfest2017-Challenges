@@ -1,0 +1,12 @@
+version: '2'
+services:
+  web:
+    build: .
+    ports:
+     - "21000:80"
+     - "21001:21001"
+networks:
+  default:
+    ipam:
+      config:
+        - subnet: 10.133.9.0/24

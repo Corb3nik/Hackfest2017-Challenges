@@ -1,0 +1,25 @@
+version: '2'
+services:
+  database:
+    build: ./mysql/
+    command: mysqld --user=root --verbose
+    environment:
+      MYSQL_DATABASE: "baby_sqli"
+      MYSQL_USER: "baby_sqli"
+      MYSQL_PASSWORD: "thisisasecurepassword123"
+      MYSQL_ROOT_PASSWORD: "root"
+      MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
+  web:
+    build: ./www/
+    ports:
+     - "16000:80"
+    volumes:
+      - ./www/src:/var/www/html
+    links:
+      - database
+networks:
+  default:
+    ipam:
+      config:
+        - subnet: 10.133.7.0/24
+

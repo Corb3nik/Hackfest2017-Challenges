@@ -1,0 +1,6 @@
+// Congratz! PHP is such a fun language to break :D
+// But good thing they deprecated it...
+// http://php.net/manual/en/function.create-function.php
+
+// Anyway, here's your flag :
+HF-ca724db2d49bb280ca644ed39f09ed65

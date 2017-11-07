@@ -1,0 +1,2 @@
+* * * * * root echo "" > /var/www/html/.git/gitweb/access.log && echo "" > /var/www/html/.git/gitweb/error.log >/dev/null 2>&1
+
