@@ -1,7 +1,5 @@
 #!/usr/bin/env python
 
-from pwn import *
-
 flag = ""
 for i in xrange(1000):
     path = "binaries/binary{}".format(i)
