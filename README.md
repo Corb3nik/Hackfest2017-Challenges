@@ -23,7 +23,7 @@ Each folder has a `readme.md` file containing the solution.
 ### [Coming soon]
 
 Since nobody solved The PHP Litter Box (500 points), I've decided to host the
-challenge on [RingZer0Team](ringzer0team.com) instead so you can give it
+challenge on [RingZer0Team](https://ringzer0team.com) instead so you can give it
 another try.
 
 
