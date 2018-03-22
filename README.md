@@ -12,19 +12,10 @@ Challenges include :
  - (100 points) Automated Reversing
  - (300 points) RC LIFE
  - (400 points) The Impossible Quiz
+ - (500 points) PHP Litter Box
 
 With the exception of the `Automated Reversing` challenge, each challenge
 is a docker container and can be deployed with the `docker-compose up`
 command.
 
-Each folder has a `readme.md` file containing the solution.
-
-
-### [Coming soon]
-
-Since nobody solved The PHP Litter Box (500 points), I've decided to host the
-challenge on [RingZer0Team](https://ringzer0team.com) instead so you can give it
-another try.
-
-
-
+Each folder has a `readme.md` file containing the solution (except PHP Litter Box).
