@@ -169,7 +169,7 @@ GET /question3.php?answer= HTTP/1.1
 Host: 127.0.0.1
 
 GET /question2.php?answer=I%20seek%20the%20Holy%20Grail! HTTP/1.1
-A: HTTP/1.1
+A: HTTP/1.0
 Host: 127.0.0.1
 ```
 
